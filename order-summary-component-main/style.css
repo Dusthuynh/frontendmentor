@@ -1,0 +1,104 @@
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: rgb(224, 232, 255);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-imgtop{
+    flex-shrink: 0;
+    object-fit: cover;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.452) 0px 7px 29px 0px;
+    width: 450px;
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.card-title{
+    font-weight: 900;
+    font-size: 30px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-bottom: 25px;
+}
+.card-content{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-bottom: 25px;
+}
+.card-music{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 30px;
+}
+.card-contentmusic{
+    padding-left: 20px;
+}
+.card-change{
+    padding-left: 90px;
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-change:hover{
+    text-decoration: none;
+    color:hsla(245, 67%, 51%, 0.74);
+}
+.card-name{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.card-cost{
+    color:hsl(224, 23%, 55%);
+}
+.card-proceed{
+    text-align: center;
+    color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    font-weight: 700;
+    box-shadow: hsla(245, 75%, 52%, 0.568) 0px 5px 20px 0px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.card-proceed:hover{
+    background-color: hsla(245, 67%, 51%, 0.74);
+}
+.card-cancel{
+    text-align: center;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+.attribution{
+    margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
