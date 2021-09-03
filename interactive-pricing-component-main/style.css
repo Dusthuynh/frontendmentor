@@ -1,0 +1,62 @@
+body{
+    background-image: url("images/pattern-circles.svg"), url("images/bg-pattern.svg");
+    background-position: center 15%, left top;
+    background-size: auto, 1100px;
+    background-repeat: no-repeat;
+    padding: 25px;
+    padding-top: 120px;
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(225, 20%, 60%);
+    background-color: hsl(230, 100%, 99%);
+    font-weight: 600;
+}
+
+#text_top{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+.intro{
+    font-weight: 800;
+    font-size: 20px;
+    color: hsl(227, 35%, 25%);
+    padding-bottom: 18px;
+}
+
+.noti{
+    font-size: 15px;
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+
+#card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    box-shadow: rgba(107, 107, 107, 0.1) 0px 4px 12px;
+}
+
+#top-card{
+    margin: 50px;
+    margin-bottom: 80px;
+}
+
+#bottom-card{
+    margin: 20px;
+}
+
+hr {
+    color: hsl(224, 65%, 95%);
+    
+}
+
+
+.attribution{
+    padding-top: 100px;
+}
