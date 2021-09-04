@@ -75,6 +75,10 @@
         color: hsl(226, 100%, 87%);
     }
 
+    .button-trial:hover{
+        color:hsl(224, 65%, 95%);
+    }
+
     .attribution{
         padding-top: 100px;
     }
