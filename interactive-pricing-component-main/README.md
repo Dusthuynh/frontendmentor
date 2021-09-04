@@ -1,5 +1,5 @@
 # Frontend Mentor - Interactive pricing component
-(https://dusthuynh.github.io/frontendmentor/interactive-pricing-component-main/)
+[Link project](https://dusthuynh.github.io/frontendmentor/interactive-pricing-component-main/)
 ![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
